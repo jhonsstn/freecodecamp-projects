@@ -1,2 +1,3 @@
 # freecodecamp-projects
-A registry of the projects I made during the freecodecamp.org curriculum.
+
+A record of the projects I did during the freecodecamp.org curriculum.
