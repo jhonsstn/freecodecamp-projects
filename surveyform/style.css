@@ -34,7 +34,6 @@ header {
 
 form {
   display: block;
-  /* border: border-box; */
   margin: 0 auto;
   width: auto;
   max-width: 750px;
@@ -123,6 +122,9 @@ select:focus {
 
 textarea {
   margin-top: 0px;
+  resize: vertical;
+  max-height: 300px;
+  min-height: 100px;
 }
 
 #submit {
