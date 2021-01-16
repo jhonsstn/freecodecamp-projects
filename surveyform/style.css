@@ -123,6 +123,9 @@ select:focus {
 
 textarea {
   margin-top: 0px;
+  resize: vertical;
+  max-height: 300px;
+  min-height: 100px;
 }
 
 #submit {
