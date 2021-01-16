@@ -1,0 +1,198 @@
+body {
+  background-image: linear-gradient(
+      115deg,
+      rgba(64, 145, 108, 0.7),
+      rgba(64, 145, 108, 0.6)
+  ), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  font-family:  'Lato', sans-serif;
+  color: white;
+}
+
+header {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#title {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 10px;
+}
+#description {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.4rem;
+  margin: 0;
+  font-weight: 300;
+}
+
+form {
+  display: block;
+  border: border-box;
+  margin: 0 auto;
+  width: auto;
+  max-width: 750px;
+  background-color: rgba(27, 67, 50, 0.9);
+  padding: 40px;
+  border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+  font-family:  'Lato', sans-serif;
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.parentesis {
+  font-size: 1rem;
+  font-weight: 400
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+input,
+textarea,
+select {
+  border-radius: 5px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border: 2px solid rgba(116, 198, 157, 0.9);
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.name label {
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.name input {
+  margin: 0px;
+  padding: 10px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+}
+
+.email label {
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.email input {
+  margin: 0px;
+  padding: 10px;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+}
+
+.number label {
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.number input {
+  margin: 0px;
+  padding: 10px;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown label {
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.dropdown #dropdown {
+  margin: 0px;
+  padding: 10px;
+}
+
+.radio {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  margin: 0px;
+  align-items: baseline;
+}
+
+.dropdown2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown2 #dropdown2 {
+  margin: 0px;
+  padding: 10px;
+}
+
+.dropdown2 label {
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.checkbox {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  margin: 0px;
+  align-items: baseline;
+}
+
+.suggestions {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.suggestions label {
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.suggestions textarea {
+  margin-top: 0px;
+}
+
+#submit {
+  width: 100%;
+  color: white;
+  background-color: #0add2a;
+  padding: 15px;
+  margin-top: 20px;
+  border: 0;
+}
+
+#submit:hover {
+  background-color: #0ab42a;
+}
+
+#submit:active {
+  box-shadow: 1px 1px 3px #AFFF8F inset;
+}
+
+#0a792a
