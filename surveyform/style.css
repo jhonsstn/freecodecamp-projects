@@ -3,8 +3,9 @@ body {
       115deg,
       rgba(64, 145, 108, 0.7),
       rgba(64, 145, 108, 0.6)
-  ), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
-  font-family:  'Lato', sans-serif;
+    ),
+    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  font-family: "Lato", sans-serif;
   color: white;
 }
 
@@ -15,22 +16,23 @@ header {
 
 #title {
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 36px;
   font-weight: 400;
   margin: 0;
   margin-bottom: 10px;
 }
+
 #description {
   text-align: center;
   font-style: italic;
-  font-size: 1.4rem;
+  font-size: 22px;
   margin: 0;
   font-weight: 300;
 }
 
 form {
   display: block;
-  border: border-box;
+  /* border: border-box; */
   margin: 0 auto;
   width: auto;
   max-width: 750px;
@@ -40,24 +42,30 @@ form {
 }
 
 ::-webkit-input-placeholder {
-  font-family: 'Lato', sans-serif;
-  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
 }
 
 p {
   margin-bottom: 5px;
   margin-top: 20px;
-  font-size: 1.2rem;
+  font-size: 19px;
   font-weight: 400;
 }
 
 .parentesis {
-  font-size: 1rem;
-  font-weight: 400
+  font-size: 14px;
+  font-weight: 300;
 }
 
 label {
-  font-size: 1.2rem;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+#label1,
+#label2 {
+  font-size: 19px;
   font-weight: 400;
 }
 
@@ -74,88 +82,36 @@ select:focus {
   border: 2px solid rgba(116, 198, 157, 0.9);
 }
 
-.name {
+.name,
+.email,
+.number,
+.dropdown,
+.dropdown2,
+.suggestions {
   display: flex;
   flex-direction: column;
 }
 
-.name label {
-  margin-bottom: 5px;
-  margin-top: 0;
-}
-
-.name input {
-  margin: 0px;
-  padding: 10px;
-}
-
-.email {
-  display: flex;
-  flex-direction: column;
-}
-
-.email label {
+.name label,
+.email label,
+.number label,
+.dropdown label,
+.dropdown2 label,
+.suggestions label {
   margin-bottom: 5px;
   margin-top: 20px;
 }
 
-.email input {
+.name input,
+.email input,
+.number input,
+#dropdown,
+#dropdown2 {
   margin: 0px;
   padding: 10px;
 }
 
-.number {
-  display: flex;
-  flex-direction: column;
-}
-
-.number label {
-  margin-bottom: 5px;
-  margin-top: 20px;
-}
-
-.number input {
-  margin: 0px;
-  padding: 10px;
-}
-
-.dropdown {
-  display: flex;
-  flex-direction: column;
-}
-
-.dropdown label {
-  margin-bottom: 5px;
-  margin-top: 20px;
-}
-
-.dropdown #dropdown {
-  margin: 0px;
-  padding: 10px;
-}
-
-.radio {
-  display: grid;
-  grid-template-columns: 25px 1fr;
-  margin: 0px;
-  align-items: baseline;
-}
-
-.dropdown2 {
-  display: flex;
-  flex-direction: column;
-}
-
-.dropdown2 #dropdown2 {
-  margin: 0px;
-  padding: 10px;
-}
-
-.dropdown2 label {
-  margin-bottom: 5px;
-  margin-top: 20px;
-}
-
+.radio,
 .checkbox {
   display: grid;
   grid-template-columns: 25px 1fr;
@@ -163,27 +119,20 @@ select:focus {
   align-items: baseline;
 }
 
-.suggestions {
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
-}
-
-.suggestions label {
-  margin-bottom: 5px;
-  margin-top: 20px;
-}
-
-.suggestions textarea {
+textarea {
   margin-top: 0px;
 }
 
 #submit {
   width: 100%;
   color: white;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 400;
   background-color: #0add2a;
   padding: 15px;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
   border: 0;
 }
 
@@ -192,7 +141,5 @@ select:focus {
 }
 
 #submit:active {
-  box-shadow: 1px 1px 3px #AFFF8F inset;
+  box-shadow: 1px 1px 3px #afff8f inset;
 }
-
-#0a792a
