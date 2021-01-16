@@ -5,6 +5,8 @@ body {
       rgba(64, 145, 108, 0.6)
     ),
     url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  background-attachment: fixed;
+  background-position:center center;
   font-family: "Lato", sans-serif;
   color: white;
 }
